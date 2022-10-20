@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Cifra de César & Base64 </title>
+</head>
+
+<body>
+
+    <header>
+        <h1>CODE:<br> CAESAR-64</h1><br>
+    </header>
+
+    <main>
+        <section>
+            <form class="wrapper">
+                <div>
+                    <h2>CODIFICANDO E DECODIFICANDO</h2><br>
+                    <label for="escolherDecodificacao"><strong>CRIPTOGRAFIA:</strong></label>
+                    <select id="escolherDecodificacao">
+                        <option class="testei" value="optCifra">Cifra de César</option>
+                        <option class="testei" selected value="optBase64">Base64</option>
+                    </select>
+                </div><br>
+                <div class="radioBtns">
+                    <div>
+                        <label for="radio1">Codificar</label>
+                        <input checked type="radio" value="radio1" name="teste" class="radioGeral" id="radio1">
+                    </div>
+                    <div>
+                        <label for="radio2">Decodificar</label>
+                        <input type="radio" name="teste" value="radio2" class="radioGeral" id="radio2">
+                    </div>
+                    <br>
+                </div>
+                <div>
+                    <label id="inputTextoTitulo" for="inputTexto">Texto para ser codificado:</label>
+                    <textarea type="text" id="inputTexto"></textarea>
+                </div><br>
+                
+                <div id="baseContainer">
+                    <label for="inputBase">Deslocamento:</label>
+                    <input type="number" min="0" maxlength="2" placeholder="1-25" id="inputBase">
+                </div>
+                
+                <div>
+                    <input type="button" value="Confirmar" id="btn">
+                </div><br>
+    
+                <div class="resultadoContainer">
+                    <textarea readonly class="resultado">Resultado</textarea>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./script/script.js"></script> 
+</body>
+
+</html>
