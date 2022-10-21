@@ -7,3 +7,8 @@
 <h2> SOBRE: BASE64 </h2>
 <ul>
   <li> "Base64 é um método para codificação de dados para transferência na Internet (codificação MIME para transferência de conteúdo). É utilizado frequentemente para transmitir dados binários por meios de transmissão que lidam apenas com texto, como por exemplo para enviar arquivos anexos por e-mail.É constituído por 64 caracteres ([A-Z],[a-z],[0-9], "/" e "+") que deram origem ao seu nome. O carácter "=" é utilizado como um sufixo especial e a especificação original (RFC 989) definiu que o símbolo "*" pode ser utilizado para delimitar dados convertidos, mas não criptografados, dentro de um stream." </li></ul>
+<h2> LINGUAGENS USADAS: </h2>
+<ul>
+  <li> HTML5 </li>
+  <li> CSS3 </li>
+  <li> JavaScript </li></ul>
